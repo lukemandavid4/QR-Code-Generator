@@ -1,0 +1,32 @@
+.qrcode form{
+    display: flex;
+    flex-direction: column;
+    background: azure;
+    gap: 1rem;
+    padding: 2rem;
+    width: 25rem;
+    height: 30rem;
+    border-radius: 1rem;
+}
+.qrcode form .qrcode__name{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.qrcode form .qrcode__name label{
+    font-weight: 600;
+}
+.qrcode form .qrcode__name input{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+    outline: none;
+}
+.qrcode form button{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    background: linear-gradient(-45deg ,#000, darkblue, dodgerblue);
+    color: #fff;
+    cursor: pointer;
+}

@@ -1,0 +1,7 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+  background: linear-gradient(-45deg ,#000, darkblue, dodgerblue);
+}
