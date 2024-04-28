@@ -22,6 +22,11 @@
     border: 1px solid gray;
     outline: none;
 }
+.qrcode__img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .qrcode form button{
     padding: 0.5rem;
     border-radius: 0.5rem;
